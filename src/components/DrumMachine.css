@@ -1,0 +1,15 @@
+#drum-machine {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+.label {
+    margin: auto;
+    width: 180px;
+    border-bottom: 3px solid #dfabe4;
+}
+#display {
+    text-align: center;
+    max-height: 50px;
+}
