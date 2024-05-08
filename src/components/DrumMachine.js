@@ -16,7 +16,7 @@ function DrumMachine() {
     useEffect(() => {
         sounds.forEach((item) => {
             document.addEventListener("keydown", (e) => {
-                if (e.key === item.keyChar) {
+                if (e.key === item.key) {
                     playSound(item.keyChar);
                 }
             });
